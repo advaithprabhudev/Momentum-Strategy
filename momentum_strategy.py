@@ -88,7 +88,6 @@ strategy_sharpe = sharpe_ratio(returns=stock_df["Strategy Returns"])
 market_drawdown = m_drawdown(equity_curve=stock_df["Cumulative Market"])
 strategy_drawdown = m_drawdown(equity_curve=stock_df["Cumulative Strategy"])
 
-# ---------------------------------------
 # Output
 
 print(f"Market Sharpe Ratio : {market_sharpe:.3f}")
